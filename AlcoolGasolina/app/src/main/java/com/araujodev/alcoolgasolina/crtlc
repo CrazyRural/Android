@@ -1,0 +1,9 @@
+BancoController crud = new BancoController(getBaseContext()); Cursor cursor = crud.carregaDados(); String[] nomeCampos = new String[] {CriaBanco.ID, CriaBanco.TITULO}; int[] idViews = new int[] {R.id.idLivro, R.id.nomeLivro}; SimpleCursorAdapter adaptador = new SimpleCursorAdapter(getBaseContext(), R.layout.livros_layout,cursor,nomeCampos,idViews, 0);
+
+
+
+
+
+public Cursor carregaDadoById(int id){ Cursor cursor; String[] campos = {banco.ID,banco.TITULO,banco.AUTOR,banco.EDITORA}; String where = CriaBanco.ID + "=" + id; db = banco.getReadableDatabase(); cursor = db.query(CriaBanco.TABELA,campos,where, null, null, null, null, null); if(cursor!=null){ cursor.moveToFirst(); } db.close(); return cursor; }
+
+

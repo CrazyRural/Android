@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">My History</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_tela_login">Tela Login</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela_cadastro">Tela Cadastro</string>
+    <string name="title_activity_tela_principal">Tela Principal</string>
+    <string name="title_activity_tela_info">Tela Info</string>
+    <string-array name="nav_drawer_items">
+        <item>Criar evento</item>
+        <item>Alterar evento</item>
+        <item>Remover Evento</item>
+        <item>Fazer Login</item>
+    </string-array>
+    <string-array name="nav_drawer_icons">
+        <item>@drawable/clinichistory</item>
+        <item>@drawable/cardiogram1</item>
+        <item>@drawable/cardiogram</item>
+        <item>@drawable/pill</item>
+    </string-array>
+    <string name="title_activity_tela_adicionar">TelaAdicionar</string>
+    <string name="title_activity_tela_gerenciar">TelaGerenciar</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tela_basico">TelaBasico</string>
+    <string name="title_activity_tela_detalhes">TelaDetalhes</string>
+    <string name="title_activity_tela_receituario">TelaReceituario</string>
+    <string name="title_activity_tela_ordem_data">TelaOrdemData</string>
+    <string name="title_activity_tela_ordem_insercao">TelaOrdemInsercao</string>
+</resources>

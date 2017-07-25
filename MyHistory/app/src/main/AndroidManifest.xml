@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.araujodev.myhistory" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/abc_ic_menu_selectall_mtrl_alpha"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TelaIntroducao"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="My Medical History"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TelaLogin"
+            android:label="@string/title_activity_tela_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".TelaCadastro"
+            android:label="@string/title_activity_tela_cadastro"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".TelaPrincipal"
+            android:label="@string/title_activity_tela_principal"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".TelaInfo"
+            android:label="@string/title_activity_tela_info"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".TelaAdicionar"
+            android:label="@string/title_activity_tela_adicionar"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".TelaGerenciar"
+            android:label="@string/title_activity_tela_gerenciar"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".TelaBasico"
+            android:label="@string/title_activity_tela_basico"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".TelaDetalhes"
+            android:label="@string/title_activity_tela_detalhes"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".TelaReceituario"
+            android:label="@string/title_activity_tela_receituario"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".TelaOrdemData"
+            android:label="@string/title_activity_tela_ordem_data" >
+        </activity>
+        <activity
+            android:name=".TelaOrdemInsercao"
+            android:label="@string/title_activity_tela_ordem_insercao" >
+        </activity>
+    </application>
+
+</manifest>

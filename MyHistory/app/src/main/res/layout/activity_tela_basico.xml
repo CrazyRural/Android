@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.araujodev.myhistory.TelaBasico">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dataEdit"
+        android:textColor="#ffffff"
+        android:hint="Digite a Data"
+        android:textColorHint="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+<EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/nomeEnfermeiroEdit"
+        android:textColor="#ffffff"
+        android:hint="Nome do Enfermeiro"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/nomeMedicoEdit"
+        android:textColorHint="#ffffff" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomeMedicoEdit"
+        android:textColor="#ffffff"
+        android:hint="Nome do Médico"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dataEdit"
+        android:layout_alignParentStart="true"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/nomeHospitalEdit"
+        android:textColor="#ffffff"
+        android:hint="Hospital, Clinica , Posto.."
+        android:layout_marginTop="15dp"
+        android:textColorHint="#ffffff"
+        android:layout_below="@+id/nomeEnfermeiroEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/dataEdit"
+        android:layout_alignEnd="@+id/dataEdit"
+        android:paddingTop="20dp"/>
+
+</RelativeLayout>
